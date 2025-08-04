@@ -1,0 +1,62 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+.header{
+    background-color: rgba(20,66,93,255);
+    width: 100vw;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+}
+#title{
+    display: block;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 17vh;
+    Font-Family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;   
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.drop-btn{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 395px;
+    color: white;
+    font-size: 20px;
+}
+.novel-list{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    left: 340px;
+    display: inline-block;
+}
+.nl-list{
+    background-color:  rgba(20,66,93,255);
+    height: 150px;
+    width: 166px;
+    position: relative;
+    top: 30px;
+    left: 143px;
+    border: 1px solid black;
+    display: none;
+}
+.nl-list > a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.drop-btn:active{
+    display: block;
+}
